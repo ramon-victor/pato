@@ -3,34 +3,6 @@
   src: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/707108/neon.ttf);
 }
 
-footer {
-  font-size: 13px;
-  position: fixed;
-  margin: 0;
-  left: 0;
-  bottom: 0;
-  width: 100%;
-  color: white;
-  text-align: center;
-}
-
-#pato {
-  position: relative;
-  margin: 150px auto auto auto;
-  text-align: center;
-}
-
-#pato-gif {
-  min-width: 30%;
-}
-body {
-  margin: 0.4% auto;
-  padding: auto;
-  width: 100%;
-  display: table;
-  background-color: black;
-}
-
 .container {
   position: relative;
   display: inline;
@@ -44,20 +16,38 @@ body {
   font-size: 9vw;
   line-height: 9vw;
   text-shadow: 0 0 3vw #f40a35;
-}
-
-.flux {
-  font-family: neon;
-  color: #426dfb;
-  font-size: 9vw;
-  line-height: 9vw;
-  text-shadow: 0 0 3vw #2356ff;
-}
-
-.neon {
   animation: neon 1s ease infinite;
   -moz-animation: neon 1s ease infinite;
   -webkit-animation: neon 1s ease infinite;
+}
+
+body {
+  margin: 0.4% auto;
+  padding: auto;
+  width: 100%;
+  display: table;
+  background-color: black;
+}
+
+#pato {
+  position: relative;
+  margin: 150px auto auto auto;
+  text-align: center;
+}
+
+#pato-gif {
+  min-width: 30%;
+}
+
+footer {
+  font-size: 13px;
+  position: fixed;
+  margin: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
 }
 
 @keyframes neon {
