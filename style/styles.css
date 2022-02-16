@@ -40,6 +40,10 @@ body {
   min-width: 30%;
 }
 
+#pato-gif:hover {
+  cursor: pointer;
+}
+
 footer {
   font-size: 13px;
   position: fixed;
