@@ -61,6 +61,11 @@ a {
   cursor: default;
 }
 
+a:visited {
+  color: inherit;
+  text-decoration: none;
+  cursor: default;
+}
 @keyframes neon {
   0%,
   100% {
