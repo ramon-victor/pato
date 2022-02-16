@@ -14,13 +14,15 @@
   text-align: center;
 }
 
-.pato {
+#pato {
   position: relative;
-  margin: 13% auto;
+  margin: 150px auto auto auto;
   text-align: center;
-  width: 30%;
 }
 
+#pato-gif {
+  min-width: 30%;
+}
 body {
   margin: 0.4% auto;
   padding: auto;
