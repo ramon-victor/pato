@@ -1,36 +1,31 @@
 <!DOCTYPE html>
 <html lang="">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Pato</title>
-        <link href="style/styles.css" rel="stylesheet" />
-        <link rel="shortcut icon" href="files/favicon.ico" type="image/x-icon">
-    </head>
-    <header>
-        <script src="js/changeDuck.js"></script>
-        <script src="js/quack.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pato</title>
+		<link href="style/styles.css" rel="stylesheet" />
+		<link rel="shortcut icon" href="files/favicon.ico" type="image/x-icon" />
+	</head>
+	<header>
+		<div class="container">
+			<div class="neon" onclick="changeDuck()">PATO</div>
+		</div>
+	</header>
 
-        <div class="container">
-            <div class="neon" onclick="changeDuck()">PATO</div>
-        </div>
-    </header>
+	<body>
+		<div id="pato">
+			<img src="files/pato.gif" id="pato-gif" alt="pato" onclick="quack()" />
+		</div>
 
-    <body>
-        <div id="pato">
-            <img src="files/pato.gif" id="pato-gif"alt="pato" onclick="quack()"/>
-        </div>
+		<footer>
+			<a href="https://ramxn.dev/" target="_blank">&copy; 2023 Duck Corp. </a>
+		</footer>
 
-        <audio autoplay loop>
-            <source src="files/without-me.mp3" type="audio/mpeg">
-            <source src="files/without-me.ogg" type="audio/ogg">
-            <source src="files/without-me.wav" type="audio/wav">
-        </audio>
-
-        <footer>
-            <a href="https://ramxn.dev/" target="_blank">&copy; 2023 Duck Corp.
-            </a>
-        </footer>
-    </body>
+        <!-- scripts -->
+		<script src="js/changeDuck.js"></script>
+		<script src="js/quack.js"></script>
+        <script src="js/autoPlayMusic.js"></script>
+	</body>
 </html>
